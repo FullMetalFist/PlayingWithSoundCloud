@@ -1,0 +1,5 @@
+#ignore Pods directory
+Pods/*
+
+#ignore Constants
+Constants.m
