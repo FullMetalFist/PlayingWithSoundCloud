@@ -7,8 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <AFNetworking/AFNetworking.h>
 
 @interface Singleton : NSObject
 
++ (instancetype)dataStore;
+- (instancetype)init;
+- (BOOL)connected;
 
 @end
